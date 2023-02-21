@@ -9,5 +9,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Say hello
-        run: |
-          echo "Hello World!"
+        run: echo "Hello World!"
+      - name: Now is is
+        run: date
+      - name: Dir content
+        run: ls -l
